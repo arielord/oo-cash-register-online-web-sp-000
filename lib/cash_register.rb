@@ -21,7 +21,7 @@ class CashRegister
       self.total *= (100-discount)/100.0
       "After the discount, the total comes to $#{self.total.round}."
     else
-      
+      "There is no discount to apply."
     end
   end
   
